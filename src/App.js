@@ -3,8 +3,8 @@ import NavigationBar from './components/navbar'; // Importing the NavigationBar 
 import Header from './components/header'; // Importing the Header component
 import Content from './components/content'; // Importing the Content component
 import Footer from './components/footer'; // Importing the Footer component
-import Read from './components/read';
-import Create from './components/create';
+import Read from './components/read'; // Importing the Read component
+import Create from './components/create'; // Importing the Create component
 
 
 function App() {
