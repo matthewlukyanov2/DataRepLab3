@@ -1,3 +1,4 @@
+import Movies from './movies'
 const Read = () => {
 
     //constant variable that holds the following JSON data for movies
@@ -29,6 +30,7 @@ const Read = () => {
 
     <div>
     <h3>Hello from the Read Component</h3>;
+    <Movies myMovies={data}/>
     </div>
     );
   };
