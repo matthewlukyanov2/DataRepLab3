@@ -3,7 +3,7 @@ import MovieItem from "./movieitem";
 const Movies = (props)=>{
     return props.myMovies.map(
         (movie)=>{
-            return <MovieItem myMovie={movie}/>
+            return <MovieItem myMovie={movie} key={movie.imdbID}/>
         }
     );
 }
