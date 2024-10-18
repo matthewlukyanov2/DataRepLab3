@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "axios";// axios is a HTTP client for making requests
 import Movies from "./movies";
 const Read = () => {
 
+  //useState Initializes movies state as an empty array
   const [movies, setMovies] = useState([]);
     
+  // useEffect lets you perform side effects in function components
       useEffect(
         ()=>{
            axios.get('https://jsonblob.com/api/jsonblob/1287718524221775872')
