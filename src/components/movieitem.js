@@ -20,7 +20,7 @@ const MovieItem = (props)=> {
         <Link to={"/edit/" + props.mymovie._id} className="btn btn-primary">Edit</Link>
       </Card>
     </div>
-  );
+  );//
 }
 
 export default MovieItem;
